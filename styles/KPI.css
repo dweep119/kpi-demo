@@ -1,0 +1,182 @@
+h1 {
+    font-size: 1.15em;
+    margin: 0;
+}
+
+h5 {
+    font-size: 0.6em;
+}
+
+h6 {
+    font-size: 0.55em;
+    margin: 0;
+}
+
+.ft_lght {
+    font-weight: 300;
+}
+
+.ft_nrml {
+    font-weight: 400;
+}
+
+/* Fonts, Spacings, Heights and Weights */
+
+.ft_sm {
+    font-size: 0.25em;
+}
+
+.mb_sm {
+    margin-bottom: 0.2em;
+}
+
+.mb_md {
+    margin-bottom: 0.4em;
+}
+
+.h_100 {
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+p {
+    opacity: 0.85;
+    font-size: 0.45em;
+}
+
+.mr-2 {
+    margin-right: 0.3em;
+}
+
+.px-2 {
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+}
+
+/* Theme Settings */
+
+.light img, .custom img {
+    height: 12px;
+    width: 12px;
+}
+
+.light img.icon_big, .custom img.icon_big  {
+    height: 24px;
+    width: 24px;
+}
+
+.light img {
+    filter: none;
+}
+
+.custom img {
+    filter: invert(1);
+}
+
+.icon_start {
+    position: relative;
+    top: 8px;
+}
+
+.icon_end {
+    position: relative;
+    bottom: 0;
+}
+
+.light {
+    color: #2a2a2a;
+}
+
+.light h6 {
+    opacity: 0.75;
+}
+
+.custom {
+    color: #fff;
+}
+
+.custom h6 {
+    opacity: 0.75;
+}
+
+/* Flex Settings */
+
+.d_flex {
+    display: flex;
+}
+
+.flex_row {
+    flex-direction: row;
+}
+
+.flex_column {
+    flex-direction: column;
+}
+
+.align_center {
+    align-items: center; 
+}
+
+.align_start {
+    align-items: flex-start; 
+}
+
+.justify_center {
+    justify-content: center; 
+}
+
+.justify_start {
+    justify-content: flex-start; 
+}
+
+/* Zoom Controls */
+
+.zoom_block {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #E3E3E3;
+    font-size: 0.8em;
+    color: #666;
+    padding: 0.3em;
+}
+
+/* Move Block */
+
+.move_block {
+    font-size: 0.4em;
+    color: #000;
+    opacity: 0.35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.move_block img {
+    height: 14px;
+    width: 14px;
+    margin-right: 0.4em;
+}
+
+/* Grid Settings */
+
+/* .handle-resize {
+    padding: 0.6em;
+} */
+
+.ready .gs-w:not(.preview-holder), .ready .resize-preview-holder {
+    background: #fff;
+    display: inherit;
+}
+
+.light {
+    background: #fff;
+}
+
+.dark {
+    background: #aaa;
+}

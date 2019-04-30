@@ -1,0 +1,6 @@
+/* GridElement CSS */
+
+.react-grid-item {
+  background-color: #FFF;
+  box-shadow: 0 0 2px #DDD;
+}
